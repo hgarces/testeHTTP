@@ -1,0 +1,72 @@
+@media screen and (min-width: 1035px) and (max-width: 481px) {
+	.img-banner {
+		position: relative;
+		width: 300px;
+	}
+	form.search {
+		padding: 10px 10px 0 0;
+	}
+}
+@media screen and (max-width: 480px) {
+	body {
+		position: absolute;
+	}
+}
+@media screen and (max-width: 480px) {
+	header {
+		position: absolute;
+	}
+	#menu-icon {
+		display: inline-block;
+	}
+	.logo {
+		width: 60px;
+		height: auto;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #00ffa2;
+		border: 1px solid #e0e0e0;
+		right: 20px;
+		top: 6px;
+		width: 50%;
+		border-radius: 2px 0 2px 2px; 
+	} 
+	nav li {
+		box-sizing: border-box;
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+	nav:hover ul{
+		display: block;
+	}
+	section {
+		float: left;
+		width: 100%;
+		margin: 30px 0;
+		padding: 0;
+	}
+	section.suggestion-block {
+		width: 100%;
+	}
+	section.contact-block {
+		width: 100%;
+	}
+	.slider {
+		margin-top: 110px;
+	}
+	.img-banner {
+		position: static;
+		width: 300px;
+	}
+	form.search {
+		padding: 10px 10px 0 0;
+	}
+	section.suggestion-block {
+		margin: 30px 2% 0 0;
+	}
+}
